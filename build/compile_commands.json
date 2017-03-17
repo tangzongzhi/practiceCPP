@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/tangzongzhi/Practice/CPP/src/build",
+  "command": "/usr/bin/c++    -g -I/home/tangzongzhi/Practice/CPP/src/build -I/home/tangzongzhi/Practice/CPP/src    -o CMakeFiles/helloworld.dir/helloworld.cpp.o -c /home/tangzongzhi/Practice/CPP/src/helloworld.cpp",
+  "file": "/home/tangzongzhi/Practice/CPP/src/helloworld.cpp"
+}
+]
