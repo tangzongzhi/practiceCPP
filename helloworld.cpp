@@ -3,6 +3,7 @@
 #include<stdio.h>
 #include<iostream>
 #include<vector>
+#include<ValidParentheses.cpp>
 using namespace std;
 // typedef struct Node{
 //     int number;
@@ -10,15 +11,16 @@ using namespace std;
 // }Node;
 
 string longestCommonPrefix(vector<string>& strs) {
-    int vecsize=strs.size();
-    int strsize=strs[0].size();
+
     string prefix="";
-    if(vecsize==0||strsize==0){
+    if(strs.size()==0||strs[0].size()==0){
         return prefix; 
     }
-    for(int i=0;i<strsize-1;i++){
-        for(int j=1;j<vecsize;j++){
-            if(strs[j].size()<i||strs[j][i]!=strs[0][i])
+    int vecsize=strs.size();
+    int strsize=strs[0].size();
+    for(int i=0;i<strsize;i++){
+        for(int j=0;j<vecsize;j++){
+            if(strs[j].size()<i+1||strs[j][i]!=strs[0][i])
                 return prefix;
         }
         prefix+=strs[0][i];
@@ -28,8 +30,10 @@ string longestCommonPrefix(vector<string>& strs) {
 int main(){
     printf("Hello World!\n");
     // usleep(100000);
+    string test="[{}]";
+    cout<<isValid(test)<<endl;
     // vector<string> test;
-    // test.push_back("");
+    // test.push_back("a");
     // string value=longestCommonPrefix(test);
     // cout<<value<<endl;
     // Node *pHead;

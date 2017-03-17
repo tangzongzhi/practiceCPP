@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tangzongzhi/Practice/CPP/src
+CMAKE_SOURCE_DIR = /home/tangzongzhi/Practice/practiceCPP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tangzongzhi/Practice/CPP/src/build
+CMAKE_BINARY_DIR = /home/tangzongzhi/Practice/practiceCPP/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/helloworld.dir
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/tangzongzhi/Practice/CPP/src/build
 CMakeFiles/helloworld.dir/all:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/depend
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/tangzongzhi/Practice/CPP/src/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tangzongzhi/Practice/practiceCPP/build/CMakeFiles  1
 	@echo "Built target helloworld"
 .PHONY : CMakeFiles/helloworld.dir/all
 
@@ -72,9 +72,9 @@ all: CMakeFiles/helloworld.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/helloworld.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tangzongzhi/Practice/CPP/src/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tangzongzhi/Practice/practiceCPP/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/helloworld.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tangzongzhi/Practice/CPP/src/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tangzongzhi/Practice/practiceCPP/build/CMakeFiles 0
 .PHONY : CMakeFiles/helloworld.dir/rule
 
 # Convenience name for target.

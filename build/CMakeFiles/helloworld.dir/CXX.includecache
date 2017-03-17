@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/tangzongzhi/Practice/CPP/src/helloworld.cpp
+../ValidParentheses.cpp
+iostream
+-
+string
+-
+
+/home/tangzongzhi/Practice/practiceCPP/helloworld.cpp
 stdio.h
 -
 iostream
 -
 vector
+-
+ValidParentheses.cpp
 -
 

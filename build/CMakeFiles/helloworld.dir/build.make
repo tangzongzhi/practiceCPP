@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tangzongzhi/Practice/CPP/src
+CMAKE_SOURCE_DIR = /home/tangzongzhi/Practice/practiceCPP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tangzongzhi/Practice/CPP/src/build
+CMAKE_BINARY_DIR = /home/tangzongzhi/Practice/practiceCPP/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/helloworld.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/helloworld.dir/flags.make
 
 CMakeFiles/helloworld.dir/helloworld.cpp.o: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/helloworld.cpp.o: ../helloworld.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/tangzongzhi/Practice/CPP/src/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tangzongzhi/Practice/practiceCPP/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/helloworld.dir/helloworld.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/helloworld.dir/helloworld.cpp.o -c /home/tangzongzhi/Practice/CPP/src/helloworld.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/helloworld.dir/helloworld.cpp.o -c /home/tangzongzhi/Practice/practiceCPP/helloworld.cpp
 
 CMakeFiles/helloworld.dir/helloworld.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld.dir/helloworld.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/tangzongzhi/Practice/CPP/src/helloworld.cpp > CMakeFiles/helloworld.dir/helloworld.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/tangzongzhi/Practice/practiceCPP/helloworld.cpp > CMakeFiles/helloworld.dir/helloworld.cpp.i
 
 CMakeFiles/helloworld.dir/helloworld.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/helloworld.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/tangzongzhi/Practice/CPP/src/helloworld.cpp -o CMakeFiles/helloworld.dir/helloworld.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/tangzongzhi/Practice/practiceCPP/helloworld.cpp -o CMakeFiles/helloworld.dir/helloworld.cpp.s
 
 CMakeFiles/helloworld.dir/helloworld.cpp.o.requires:
 .PHONY : CMakeFiles/helloworld.dir/helloworld.cpp.o.requires
@@ -100,6 +100,6 @@ CMakeFiles/helloworld.dir/clean:
 .PHONY : CMakeFiles/helloworld.dir/clean
 
 CMakeFiles/helloworld.dir/depend:
-	cd /home/tangzongzhi/Practice/CPP/src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tangzongzhi/Practice/CPP/src /home/tangzongzhi/Practice/CPP/src /home/tangzongzhi/Practice/CPP/src/build /home/tangzongzhi/Practice/CPP/src/build /home/tangzongzhi/Practice/CPP/src/build/CMakeFiles/helloworld.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tangzongzhi/Practice/practiceCPP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tangzongzhi/Practice/practiceCPP /home/tangzongzhi/Practice/practiceCPP /home/tangzongzhi/Practice/practiceCPP/build /home/tangzongzhi/Practice/practiceCPP/build /home/tangzongzhi/Practice/practiceCPP/build/CMakeFiles/helloworld.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/helloworld.dir/depend
 
