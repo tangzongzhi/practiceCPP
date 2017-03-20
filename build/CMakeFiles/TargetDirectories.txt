@@ -1,1 +1,1 @@
-/home/tangzongzhi/Practice/practiceCPP/build/CMakeFiles/helloworld.dir
+/home/tangzongzhi/Practice/practiceCPP/build/CMakeFiles/test.dir

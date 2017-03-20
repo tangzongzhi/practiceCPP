@@ -121,7 +121,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=HelloWorld
+CMAKE_PROJECT_NAME:STATIC=Test
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -180,6 +180,12 @@ HelloWorld_BINARY_DIR:STATIC=/home/tangzongzhi/Practice/practiceCPP/build
 
 //Value Computed by CMake
 HelloWorld_SOURCE_DIR:STATIC=/home/tangzongzhi/Practice/practiceCPP
+
+//Value Computed by CMake
+Test_BINARY_DIR:STATIC=/home/tangzongzhi/Practice/practiceCPP/build
+
+//Value Computed by CMake
+Test_SOURCE_DIR:STATIC=/home/tangzongzhi/Practice/practiceCPP
 
 
 ########################

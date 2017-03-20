@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 2.8)
-project(HelloWorld)
+project(Test)
 
 SET(SOURCE
-  helloworld.cpp
+  main.cpp
 )
 
 INCLUDE_DIRECTORIES(
@@ -10,4 +10,4 @@ INCLUDE_DIRECTORIES(
   ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-add_executable(helloworld ${SOURCE})
+add_executable(test ${SOURCE})

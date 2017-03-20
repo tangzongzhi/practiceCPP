@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../CPPBasicFunction.cpp
+iostream
+-
+string
+-
+
+/home/tangzongzhi/Practice/practiceCPP/main.cpp
+stdio.h
+-
+iostream
+-
+CPPBasicFunction.cpp
+-
+
