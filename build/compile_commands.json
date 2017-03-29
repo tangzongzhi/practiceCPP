@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/tangzongzhi/Practice/practiceCPP/build",
-  "command": "/usr/bin/c++    -g -I/home/tangzongzhi/Practice/practiceCPP/build -I/home/tangzongzhi/Practice/practiceCPP    -o CMakeFiles/test.dir/main.cpp.o -c /home/tangzongzhi/Practice/practiceCPP/main.cpp",
-  "file": "/home/tangzongzhi/Practice/practiceCPP/main.cpp"
-}
-]

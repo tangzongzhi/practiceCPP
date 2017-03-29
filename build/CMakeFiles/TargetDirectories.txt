@@ -1,1 +1,0 @@
-/home/tangzongzhi/Practice/practiceCPP/build/CMakeFiles/test.dir
